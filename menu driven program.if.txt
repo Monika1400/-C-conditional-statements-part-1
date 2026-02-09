@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main() {
+    int num;
+    scanf("%d",&num);
+    int a,b;
+    scanf("%d%d",&a,&b);
+    switch (num) {
+        case 1:
+            printf("sum:%d",a+b);
+            break;
+        case 2:
+            printf("difference:%d",a-b);
+            break;
+        case 3:
+            printf("product:%d",a*b);
+            break;
+        case 4:
+            printf("quotient:%d",a/b);
+            break;
+        case 5:
+            printf("remainder:%d",b-a);
+            break;
+        default:
+            printf("Invalid operation");
+    }
+    return 0;
+}

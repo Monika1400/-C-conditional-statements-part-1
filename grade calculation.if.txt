@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main() {
+    int Marks;
+    scanf("%d",&Marks);
+    if (Marks>=75 && Marks<90) {
+        printf("Grade B");
+    }
+    return 0;
+}
